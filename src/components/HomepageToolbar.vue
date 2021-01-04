@@ -70,12 +70,13 @@
 <script>
 export default {
   name: "HomepageToolbar",
+
   data: () => ({
       homepageDrawer: false,
 
       menuItems: [
-        { title: 'Signup', icon: 'account-plus', href:'https://wwww.mediheart.digiclover.net/signup'},        
-        { title: 'Login', icon: 'login', href:'https://wwww.mediheart.digiclover.net/login'}      
+        { title: 'Signup', icon: 'account-plus', href: `${process.env.VUE_APP_SIGNUP_URL}` == 'undefined' || `${process.env.VUE_APP_SIGNUP_URL}` == '' ? 'localhost:8080' : `${process.env.VUE_APP_SIGNUP_URL}`},        
+        { title: 'Login', icon: 'login', href: `${process.env.VUE_APP_LOGIN_URL}` == 'undefined' || `${process.env.VUE_APP_LOGIN_URL}` == '' ? 'localhost:8080' : `${process.env.VUE_APP_LOGIN_URL}`},        
       ],
       
     }),
