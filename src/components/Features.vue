@@ -28,8 +28,8 @@
   .div1{
       z-index: 1;
       position: relative;
-      padding-top: 1em;
-      padding-bottom: 1em;
+      padding-top: 4em;
+      padding-bottom: 4em;
       display: flex;
       -webkit-box-align: center;
       align-items: center;
