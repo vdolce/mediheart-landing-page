@@ -1,0 +1,43 @@
+{
+  "Common": {
+    "email": "Email",
+    "password":"Password",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "yes": "yes",
+    "no":"no"
+  },
+
+  "MainSection":{
+    "title": {
+      "part1":"Your Health",
+      "part2":"in your Hands"
+    },
+    "subtitle":{
+      "part1": "A smart way to keep tracking of your health.",
+      "part2": "Take care of your body, it’s the only place you have to live."
+    }
+    },
+   
+    "Features":{
+    "boxSection":{
+      "box1":{
+        "title":"Store your blood type and forget it",
+        "description":"You don't need to remember your blood type. Mediheart will do it for you once and for all."
+      },
+      "box2":{
+        "title":"Keep track of your medical records",
+        "description":"Add your new information in an easy way. Your medical records are now up to date."
+      },
+      "box3":{
+        "title":"Share info with your doctor securely",
+        "description":"When it's time for your appointment, share your medical records with your doctor."
+      }
+    }},
+
+    "PersonalInfoDemo":{
+      "intermediateSection":{
+      "title":"Keep track of your health information",
+      "subtitle":"An online Personal Health Records service that you can use to keep track of information from your doctor visits, tests and procedures. "
+    }}
+  }
