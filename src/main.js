@@ -20,7 +20,7 @@ export const router = new VueRouter({
 
 // Google Analytics
 Vue.use(VueAnalytics, {
-  id: `${process.env.VUE_APP_GA_LANDING}`
+  id: process.env.VUE_APP_GA_LANDING
 });
 
 new Vue({
